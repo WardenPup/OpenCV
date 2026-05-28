@@ -1,0 +1,15 @@
+[project]
+name = "OpenCV"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Nicolas", email = "jn7545@mci4me.at"},
+]
+dependencies = ["opencv-python>=4.13.0.92", "numpy>=2.4.4", "matplotlib>=3.10.9", "pandas>=3.0.2", "scipy>=1.17.1", "jupyter>=1.1.1", "ipykernel>=7.2.0", "nbconvert>=7.17.1"]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
